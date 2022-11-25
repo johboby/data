@@ -1,37 +1,17 @@
-# BlogTest
+独立设计师，资深信息美学研究，
+#尘渊文化：开源创意设计公司，品牌设计、平面设计、信息报告
+##开放式的创意工作社区，找人找项目找素材，设计资源
+###专项市场调研 ,产业战略咨询,行业研究
 
-#### 介绍
-BlogTest文档写作备份仓库，用于日常写作观看等
+##设计淘宝：https://deeporigin.taobao.com/index.htm?spm=1487a.1.w5002-24062273293.2.53833277CvtDHp
 
-#### 软件架构
-软件架构说明
+每周更新最新最热的研究分析资料，让数据和知识更优质！
+Data research and discovery, research report, information integration and visualization
 
+我们是尘渊文化创意有限公司，一个集结全球创意工作者的社区和合作机构。我们为一切从事创意领域工作的人才（摄影，视频制作，平面设计，开发，产品，咨询设计，数据分析等）提供各方合作的渠道和机会。
 
-#### 安装教程
+我们聚集各行各业创意创新人才，将创意和艺术融入生活服务 ， 营造拥有人文温度的场所精神 ， 促进人与人之间美好关系的发生  ，凝聚和连接跨界创新品牌  对新生活方式开展有价值的探索与实践。社区开放式平台的确很重要，但更重要的是激发一个区域的活力，这需要创新，需要连接，社区中的人才，人才的大脑，这些聪明的大脑之间的碰撞与连接！
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+###我们的使命：构建文化创意合作交流平台网，推动构建新商业服务模式和价值转换，让好创意真正服务于人的生产生活，真正实现创意让生活更美好的使命愿景！
 
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+https://www.zhihu.com/zvideo/1537400495757201409
