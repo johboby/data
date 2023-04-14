@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="zh">
     <head>
+        <link rel="stylesheet" href="css/styles.css?v=1.0">
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js?v=1.0"></script>
+        <!-- Add "rel" attribute with value "noopener" to all external links -->
+<script>
+  const links = document.querySelectorAll('a[href^="http"]');
+  links.forEach(link => {
+    link.setAttribute('rel', 'noopener');
+  });
+</script>
+
+<!-- Add "async" attribute to any external scripts -->
+<script async src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         <meta charset="utf-8" />
         <base target="blank">
+        <meta name="robots" content="post,follow">
+        <meta name="googlebot" content="post,follow">
+        <meta name="bingbot" content="post,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="keywords" content="尘渊创意,alexa,信息美学,尘渊文化,汽车资讯,电子商务数据,数据研究,用户研究,移动互联网研究数据,研究报告,行业数据研究,研究数据,人工智能,调研数据,权威机构数据，市场研究数据,互联网调研,汽车数据调研,汽车研究报告">
-    <meta name="description" content="上海尘渊文化:CYCU设计填海，开放式设计服务和研究调研, 每周更新最新最热的研究分析资料，让数据和知识更优质！做人人都能看懂的研究报告。">
+    <meta name="description" content="上海尘渊文化:CYCU设计填海,开放式设计服务和研究调研, 每周更新最新最热的研究分析资料，让数据和知识更优质！做人人都能看懂的研究报告。">
         <meta name="author" content="尘渊文化" />
         <title>尘渊文化 - 研究报告，数据博客</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -63,6 +80,9 @@
 						<h2 class="section-heading"><a href="http://cycu.zone.cf" content="nofollow">尘渊文化研究理论wiki维基百科</h2></a>
 						<h2 class="section-heading"><a href="https://johboby.github.io/cycu/" content="nofollow">尘渊文化知识库分类存档</h2></a>
 						<h2 class="section-heading"><a href=http://a313136031.zone.cf" content="nofollow">尘渊文化共享博客</h2></a>
+            <h2 class="section-heading"><a href="https://sthzc420mz.jiandaoyun.com/sharedoc/jhT0pQImnVEUhWeyopJVg" content="nofollow">chatGPT人工智能研究报告</h2></a>
+						<h2 class="section-heading"><a href="https://sthzc420mz.jiandaoyun.com/sharedoc/jhT0pQImnVEUhWeyopJVg" content="nofollow">chatGPT人工智能研究报告</h2></a>
+						<h2 class="section-heading"><a href="https://sthzc420mz.jiandaoyun.com/sharedoc/jhT0pQImnVEUhWeyopJVg" content="nofollow">中医药行业研究报告</h2></a>
 						<h2 class="section-heading"><a href="https://sthzc420mz.jiandaoyun.com/sharedoc/PU79P42oKTQuAEJFbo3vw" content="nofollow">汽车，人工智能，电商，产业研究，新能源，行业分析研究报告集合</h2></a>
                      <h2 class="section-heading"><a href="https://deeporigin.taobao.com/index.htm?spm=1487a.1.w5002-24062273293.2.53833277CvtDHp" content="nofollow">尘渊文化设计美学淘宝店铺旗舰店</h2></a>
                         <h2 class="section-heading"><a href="https://www.doc88.com/1f79ee168ab15b76a7c486f28a102b8d" content="nofollow">市场汇聚和浅析06-03零售行业专题周报，专项市场调研 ,产业战略咨询,行业研究</h2></a>
@@ -79,7 +99,127 @@
 						<a href="blog/baogao.html"><h3>更多研究数据和行业报告》》</h3></a>
 						<p><a href="https://deeporigin.taobao.com/index.htm?spm=1487a.1.w5002-24062273293.2.53833277CvtDHp">繁尘花创意设计店铺，提供信息美学和设计服务</a></p>
                         <br>
-                        <h4>微信订阅号：</h4>
+                        <!-- Create a table element -->
+<table>
+  <!-- Use thead tag to define the table header -->
+  <thead>
+    <!-- Create a row for the table header -->
+    <tr>
+      <!-- Create a cell for each column in the table header -->
+      <th>News Title</th>
+      <th>News Source</th>
+      <th>News Date</th>
+    </tr>
+  </thead>
+  <!-- Use tbody tag to define the table body -->
+  <tbody id="news-table-body">
+    <!-- Add rows for news items using JavaScript -->
+  </tbody>
+</table>
+div>
+	<h2>Sina News</h2>
+	<ul>
+		<li>Breaking News: <span id="breaking-news"></span></li>
+		<li>Politics: <span id="politics-news"></span></li>
+		<li>Entertainment: <span id="entertainment-news"></span></li>
+	</ul>
+</div>
+
+<script>
+	function updateNews() {
+		// Simulating real-time updates
+		document.getElementById("breaking-news").innerHTML = "Protests erupt in major city";
+		document.getElementById("politics-news").innerHTML = "President signs new trade agreement";
+		document.getElementById("entertainment-news").innerHTML = "Actor wins award for performance in new film";
+	}
+
+	// Update news every 5 seconds
+	setInterval(updateNews, 5000);
+</script>
+
+<script>
+  // Function to update the table with new data
+  function updateTable(data) {
+    // Get the table body element
+    const tableBody = document.getElementById("news-table-body");
+    // Clear the current table rows
+    tableBody.innerHTML = "";
+    // Loop through the data and add a new row for each item
+    data.forEach(item => {
+      // Create a new row element
+      const row = document.createElement("tr");
+      // Create a cell element for the title
+      const titleCell = document.createElement("td");
+      // Set the text content of the title cell
+      titleCell.textContent = item.title;
+      // Append the title cell to the row
+      row.appendChild(titleCell);
+      // Create a cell element for the source
+      const sourceCell = document.createElement("td");
+      // Set the text content of the source cell
+      sourceCell.textContent = item.source;
+      // Append the source cell to the row
+      row.appendChild(sourceCell);
+      // Create a cell element for the date
+      const dateCell = document.createElement("td");
+      // Set the text content of the date cell
+      dateCell.textContent = item.date;
+      // Append the date cell to the row
+      row.appendChild(dateCell);
+      // Append the row to the table body
+      tableBody.appendChild(row);
+    });
+  }
+
+  // Call the updateTable function with some example data
+  const exampleData = [
+    { title: "Breaking News", source: "CNN", date: "2023-01-01" },
+    { title: "Sports Update", source: "ESPN", date: "2023-01-02" },
+    { title: "Weather Report", source: "AccuWeather", date: "2023-01-03" }
+  ];
+  updateTable(exampleData);
+
+  // Use setInterval to update the table every 30 minutes with new data
+  setInterval(() => {
+    // Send a GET request to the Bing News API
+    fetch('https://bing.com/news/api/v2/?format=json&category=World', {mode: 'cors'})
+      .then(response => response.json())
+      .then(data => {
+        // Get the news items from the API response
+        const newsItems = data.value;
+        // Get the table body element
+        const tableBody = document.getElementById('news-table-body');
+        // Clear the current table rows
+        tableBody.innerHTML = '';
+        // Add a row for each news item
+        newsItems.forEach(item => {
+          // Create a new table row element
+          const row = document.createElement('tr');
+          // Create a cell for the news title
+          const titleCell = document.createElement('td');
+          titleCell.textContent = item.name;
+          row.appendChild(titleCell);
+          // Create a cell for the news source
+          const sourceCell = document.createElement('td');
+          sourceCell.textContent = item.provider[0].name;
+          row.appendChild(sourceCell);
+          // Create a cell for the news date
+          const dateCell = document.createElement('td');
+          dateCell.textContent = new Date(item.datePublished).toLocaleDateString();
+          row.appendChild(dateCell);
+          // Add the row to the table body
+          tableBody.appendChild(row);
+        });
+      });
+  }, 1800000);
+</script>
+
+
+
+<!-- Use JavaScript to update the table with real-time Bing News data -->
+
+
+
                         <a href="assets/wechat.jpg"><img class="img-fluid" src="assets/wechat.jpg " alt="wechat" /></a>
                     </div>
                 </div>
@@ -116,7 +256,7 @@
                                 </a>
                             </li>
                         </ul>
-                         <div align=center><a href="http://beian.miit.gov.cn/"; target=_blank>沪ICP备2022000682号</a></div>
+                         <div align=center><a href="https://beian.miit.gov.cn/"; target=_blank>沪ICP备2022000682号-1</a></div>
                     </div>
                 </div>
             </div>
@@ -125,5 +265,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://www.baidu.com/search/favicon.ico">
+<meta name="baidu-site-verification" content="YOUR_VERIFICATION_CODE">
+<meta name="msvalidate.01" content="YOUR_VERIFICATION_CODE"> 
     </body>
 </html>
