@@ -5,7 +5,7 @@
 
 #官网：www.321one.com
 
-##设计淘宝：https://deeporigin.taobao.com/index.htm?spm=1487a.1.w5002-24062273293.2.53833277CvtDHp
+
 
 每周更新最新最热的研究分析资料，让数据和知识更优质！
 Data research and discovery, research report, information integration and visualization
@@ -16,4 +16,3 @@ Data research and discovery, research report, information integration and visual
 
 ###我们的使命：构建文化创意合作交流平台网，推动构建新商业服务模式和价值转换，让好创意真正服务于人的生产生活，真正实现创意让生活更美好的使命愿景！
 
-https://www.zhihu.com/zvideo/1537400495757201409
